@@ -1,0 +1,429 @@
+/* global css style start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* global css style end */
+
+/*header section code from hear*/
+
+.header-section {
+    width: 100%;
+    background: #F0FFF0;
+    padding: 15px 0px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .logo {
+    display: flex;
+
+}
+
+.navbar .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar .nav {
+    flex-basis: 70%;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.navbar .btn {
+    flex-basis: 15%;
+
+}
+
+.navbar .btn a {
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    color: white;
+}
+
+/*header section code end*/
+
+
+/* banner section code from hear */
+
+.banner-section {
+    width: 100%;
+    background: #F0FFF0;
+
+}
+
+.banner-inner {
+    display: flex;
+
+}
+
+
+.content {
+    flex-basis: 50%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.content span {
+    color: #fd511a;
+
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 59px;
+
+}
+
+.content h1 span {
+    color: #21B573;
+}
+
+.content p {
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.content .banner-btn {
+    margin-top: 30px;
+}
+
+.banner-btn a {
+    background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid #000;
+    border-radius: 33px;
+    color: white;
+
+}
+
+.img-part {
+    flex-basis: 50%;
+}
+
+.banner-inner .img-part img {
+    width: 100%;
+    height: auto;
+}
+
+/*banner section code end*/
+
+/*feature section code from hear*/
+.feature {
+    width: 100%;
+    padding: 40px 0px;
+
+}
+
+
+.feature-inner {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.feature-box {
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 90px;
+}
+.feature-box h4{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+    margin-top: 10px;
+}
+
+
+.feature-box:hover {
+    transition: 0.3s;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10)
+}
+
+.feature-box img {
+    width: 66px;
+    height: 85px;
+
+}
+
+.feature-box h4 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+
+}
+
+
+.feature-box p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+/*feature section code end*/
+
+/*courses section  code from hear*/
+.courses-section {
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: -55px;
+}
+
+.courses-section .tatle h2 {
+    margin-bottom: 80px;
+}
+
+.courses-inner {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.c-card {
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+
+.c-card:hover {
+    transition: 0.3s;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+}
+
+.courses-section .c-card img {
+    width: 100%;
+    height: auto;
+
+}
+
+.c-card h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 7px;
+}
+
+.c-card p {
+    width: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+.c-btn {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.c-btn a {
+    background: #21B573;
+    padding: 12px 28px;
+
+    border-radius: 33px;
+    color: white;
+
+}
+
+
+.c-footer {
+    display: flex;
+}
+
+.c-footer .left {
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.c-footer .left img {
+    width: 30px;
+    height: auto;
+    margin-bottom: -8px;
+}
+
+.c-footer .left span {}
+
+.c-footer .right {
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.c-footer .right img {
+    width: 30px;
+    height: auto;
+    margin-bottom: -8px;
+}
+
+.c-footer .right span {}
+
+.right span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+
+.tatle {}
+
+.tatle h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+
+
+/*header code form hear*/
+.header {
+    width: 100%;
+    padding: 40px 0px;
+    padding-bottom: 100px;
+    margin-top: -30px;
+}
+
+
+.header .left {}
+
+
+.header .left h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.header .right {
+    display: flex;
+    justify-content: center;
+
+}
+
+.right .cus-middle img{
+
+}
+
+.header .right img {
+    width: 85px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: -4px;
+}
+
+.right .cus-p p{
+
+}
+
+
+/*header code end*/
+
+.mirpur-section {
+    width: 100%;
+    padding: 40px 0px;
+    background: #282531;
+    padding-bottom: 100%;
+}
+
+
+.main-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.title-1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: 600;  
+    text-transform: capitalize;
+}
+
+.title ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-2 {
+    color: #FFFFFF;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.title-2 ul li {
+    list-style-type: none;
+}
